@@ -21,3 +21,4 @@
 - [x] 記事ドラフトの生成
 - [x] 記事を作成する（test-project: git-art プロジェクト紹介記事）
 - [x] CLAUDE.md に記事生成ワークフローを追記
+- [x] 記事の最終出力（Markdown）
