@@ -21,6 +21,7 @@ git-art/
 │   ├── brushup.md         # 記事ブラッシュアップ
 │   └── help.md            # ヘルプ（使い方の説明）
 └── projects/              # プロジェクトデータ（gitignored）
+    ├── current.json       # 現在作業中のプロジェクト名
     └── {記事の名前}-{リポジトリ名}-{YYYYMMDD-HHMMSS}/
         ├── config.json    # 記事設定
         ├── outline/       # 記事構成（バージョン管理）
@@ -45,6 +46,13 @@ git-art/
 利用者の指示に応じて、対応する workflow ファイルを読み、その手順に従って処理を実行する。
 「使い方」「ヘルプ」「何ができる？」などの質問には `workflows/help.md` の内容を表示する。
 GitHub URL だけが送られてきた場合は、記事作成を開始する（clone → config → outline → generate）。
+
+## 作業中プロジェクト
+
+- `projects/current.json` に現在作業中のプロジェクト名を保存する
+- 記事作成の開始時（clone 完了後）に `current.json` を更新する
+- ブラッシュアップや記事生成の際は `current.json` を読み、対象プロジェクトを特定する
+- 会話の最初に `current.json` を読み、作業中のプロジェクト名を表示する
 
 ## タスク管理
 
