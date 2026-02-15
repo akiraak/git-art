@@ -23,3 +23,8 @@
 - [x] CLAUDE.md に記事生成ワークフローを追記
 - [x] 記事の最終出力（Markdown）
 - [x] 記事をブラッシュアップする機能を入れる（history.md による変更履歴管理）
+- [x] ツール構成を CLI から Claude Code ベースに変更
+- [x] CLI コード（src/, package.json 等）を削除
+- [x] workflows/ にワークフロー定義ファイルを作成（clone, config, generate, brushup）
+- [x] CLAUDE.md, README.md, .gitignore を新構成に合わせて書き直し
+- [x] help機能: workflows/help.md を作成し、使い方の手順を説明する機能を追加
