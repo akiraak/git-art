@@ -17,5 +17,8 @@
     "@types/node": "^22.0.0",
     "tsx": "^4.21.0",
     "typescript": "^5.7.0"
+  },
+  "dependencies": {
+    "enquirer": "^2.4.1"
   }
 }
