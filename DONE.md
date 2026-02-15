@@ -28,3 +28,5 @@
 - [x] workflows/ にワークフロー定義ファイルを作成（clone, config, generate, brushup）
 - [x] CLAUDE.md, README.md, .gitignore を新構成に合わせて書き直し
 - [x] help機能: workflows/help.md を作成し、使い方の手順を説明する機能を追加
+- [x] プロジェクト名の命名規則を変更（{記事の名前}-{リポジトリ名}-{タイムスタンプ}で一意に）
+- [x] 記事生成後にフルパスを表示するよう generate.md を更新
