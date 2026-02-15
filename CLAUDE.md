@@ -19,6 +19,7 @@ git-art/
 │   ├── outline.md         # 記事構成の作成
 │   ├── generate.md        # 記事生成
 │   ├── brushup.md         # 記事ブラッシュアップ
+│   ├── switch.md          # プロジェクト切り替え
 │   └── help.md            # ヘルプ（使い方の説明）
 └── projects/              # プロジェクトデータ（gitignored）
     ├── current.json       # 現在作業中のプロジェクト名
@@ -41,9 +42,11 @@ git-art/
 3. **記事構成** (`workflows/outline.md`): 利用者と対話しながら記事の構成（大見出し・小見出し）を決定し outline.md に保存する
 4. **記事生成** (`workflows/generate.md`): リポジトリ内容と config と outline を読み、記事を生成して article.md に保存する
 5. **ブラッシュアップ** (`workflows/brushup.md`): フィードバックに基づいて記事を更新し、新しいバージョンとして保存する
-6. **ヘルプ** (`workflows/help.md`): 使い方がわからない人向けに手順を説明する
+6. **プロジェクト切り替え** (`workflows/switch.md`): 作業対象のプロジェクトを切り替える
+7. **ヘルプ** (`workflows/help.md`): 使い方がわからない人向けに手順を説明する
 
 利用者の指示に応じて、対応する workflow ファイルを読み、その手順に従って処理を実行する。
+「切り替え」「別のプロジェクト」などの指示には `workflows/switch.md` に従って処理する。
 「使い方」「ヘルプ」「何ができる？」などの質問には `workflows/help.md` の内容を表示する。
 GitHub URL だけが送られてきた場合は、記事作成を開始する（clone → config → outline → generate）。
 
