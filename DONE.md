@@ -37,3 +37,7 @@
 
 - [x] 記事 v10 の outline を確認・承認し、記事を生成する
 - [x] ディレクトリ名を複数形に変更（outline → outlines, article → articles）
+- [x] 構成案の表示形式をコードブロックに変更（outline.md）
+- [x] 記事ファイルの直接編集禁止ルールを CLAUDE.md に追加
+- [x] README.md のワークフロー一覧を最新化（outline, switch, help を追加）
+- [x] README.md の変更履歴管理の記述を修正（history.md → outlines/articles バージョン管理）

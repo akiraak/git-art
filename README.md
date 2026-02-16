@@ -11,7 +11,7 @@ git-art は、指定した GitHub リポジトリのコードやドキュメン�
 - GitHub リポジトリの URL を指定するだけで、コード・ドキュメントを読み取り
 - 利用者への質問を通じて記事の種類・対象読者・トーンを決定
 - フィードバックに基づく反復的な記事改善
-- 変更履歴を history.md で管理
+- outlines/ と articles/ によるバージョン管理
 
 ## 使い方
 
@@ -28,8 +28,11 @@ Claude Code のセッション内で以下のように指示します。
 |---------|---------|
 | `workflows/clone.md` | リポジトリの取得 |
 | `workflows/config.md` | 記事設定の収集 |
+| `workflows/outline.md` | 記事構成の作成 |
 | `workflows/generate.md` | 記事の生成 |
 | `workflows/brushup.md` | 記事のブラッシュアップ |
+| `workflows/switch.md` | プロジェクト切り替え |
+| `workflows/help.md` | ヘルプ |
 
 ## ライセンス
 
