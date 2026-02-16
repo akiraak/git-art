@@ -43,3 +43,4 @@
 - [x] README.md の変更履歴管理の記述を修正（history.md → outlines/articles バージョン管理）
 - [x] CLAUDE.md・ワークフローと実態の一致確認
 - [x] README.md を削除（private リポジトリのため不要）
+- [x] switch.md 改善（プロジェクト一覧に進捗ステータスを表示）
