@@ -10,6 +10,7 @@ Claude Code が `workflows/` 配下の定義に従って処理を実行する。
 ```
 git-art/
 ├── CLAUDE.md              # 全体構成・ワークフロー定義
+├── README.md
 ├── config.json            # 全体設定（デフォルトの口調・文体など）
 ├── TODO.md / DONE.md
 ├── LICENSE
