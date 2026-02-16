@@ -10,7 +10,6 @@ Claude Code が `workflows/` 配下の定義に従って処理を実行する。
 ```
 git-art/
 ├── CLAUDE.md              # 全体構成・ワークフロー定義
-├── README.md
 ├── TODO.md / DONE.md
 ├── LICENSE
 ├── workflows/             # 各処理の定義
@@ -37,10 +36,10 @@ git-art/
 
 ## ワークフロー
 
-1. **リポジトリ取得** (`workflows/clone.md`): プロジェクト名と GitHub URL を受け取り、リポジトリをクローンする
-2. **記事設定** (`workflows/config.md`): 利用者に質問して記事の種類・対象読者・トーンを決定し config.json に保存する
-3. **記事構成** (`workflows/outline.md`): 利用者と対話しながら記事の構成（大見出し・小見出し）を決定し outline.md に保存する
-4. **記事生成** (`workflows/generate.md`): リポジトリ内容と config と outline を読み、記事を生成して article.md に保存する
+1. **リポジトリ取得** (`workflows/clone.md`): GitHub URL と記事の名前を受け取り、リポジトリをクローンする
+2. **記事設定** (`workflows/config.md`): 利用者に記事の方向性を質問し config.json に保存する
+3. **記事構成** (`workflows/outline.md`): 利用者と対話しながら記事の構成（大見出し・小見出し）を決定し `outlines/v{N}.md` に保存する
+4. **記事生成** (`workflows/generate.md`): リポジトリ内容と config と outline を読み、記事を生成して `articles/v{N}.md` に保存する
 5. **ブラッシュアップ** (`workflows/brushup.md`): フィードバックに基づいて記事を更新し、新しいバージョンとして保存する
 6. **プロジェクト切り替え** (`workflows/switch.md`): 作業対象のプロジェクトを切り替える
 7. **ヘルプ** (`workflows/help.md`): 使い方がわからない人向けに手順を説明する

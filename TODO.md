@@ -1,6 +1,5 @@
 # TODO
 
-- [ ] CLAUDE.md・ワークフローと実態の一致確認
 - [ ] config.json の構造化（type / audience / tone / notes に分離）
 - [ ] help.md の拡充（ワークフロー説明・呼び出しキーワード一覧・使用例・トラブル対処）
 - [ ] switch.md 改善（プロジェクト一覧に進捗ステータスを表示）

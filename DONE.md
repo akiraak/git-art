@@ -41,3 +41,5 @@
 - [x] 記事ファイルの直接編集禁止ルールを CLAUDE.md に追加
 - [x] README.md のワークフロー一覧を最新化（outline, switch, help を追加）
 - [x] README.md の変更履歴管理の記述を修正（history.md → outlines/articles バージョン管理）
+- [x] CLAUDE.md・ワークフローと実態の一致確認
+- [x] README.md を削除（private リポジトリのため不要）
