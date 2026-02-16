@@ -44,3 +44,4 @@
 - [x] CLAUDE.md・ワークフローと実態の一致確認
 - [x] README.md を削除（private リポジトリのため不要）
 - [x] switch.md 改善（プロジェクト一覧に進捗ステータスを表示）
+- [x] config.json の2階層化（全体設定 + プロジェクト設定）と global-config.md の新設
