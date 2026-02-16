@@ -25,11 +25,11 @@ git-art/
     ├── current.json       # 現在作業中のプロジェクト名
     └── {記事の名前}-{リポジトリ名}-{YYYYMMDD-HHMMSS}/
         ├── config.json    # 記事設定
-        ├── outline/       # 記事構成（バージョン管理）
+        ├── outlines/      # 記事構成（バージョン管理）
         │   ├── v1.md
         │   ├── v2.md
         │   └── ...
-        └── article/       # 生成された記事（バージョン管理）
+        └── articles/      # 生成された記事（バージョン管理）
             ├── v2.md
             ├── v3.md
             └── ...

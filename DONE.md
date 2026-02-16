@@ -32,3 +32,8 @@
 - [x] 記事生成後にフルパスを表示するよう generate.md を更新
 - [x] 記事を作成する前に全体の構成を定義するファイルを作る（outline.md）
 - [x] 記事を作成する（Claude-Codeが面白い: git-art 紹介記事）
+
+## 2026-02-15
+
+- [x] 記事 v10 の outline を確認・承認し、記事を生成する
+- [x] ディレクトリ名を複数形に変更（outline → outlines, article → articles）
