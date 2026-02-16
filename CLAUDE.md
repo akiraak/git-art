@@ -51,7 +51,7 @@ git-art/
 利用者の指示に応じて、対応する workflow ファイルを読み、その手順に従って処理を実行する。
 「設定を変えたい」「口調を変えたい」「全体設定」などの指示には `workflows/global-config.md` に従って処理する。
 「切り替え」「別のプロジェクト」などの指示には `workflows/switch.md` に従って処理する。
-「使い方」「ヘルプ」「何ができる？」などの質問には `workflows/help.md` の内容を表示する。
+「使い方」「ヘルプ」「何ができる？」「もっと詳しく」などの質問には `workflows/help.md` に従って処理する。
 GitHub URL だけが送られてきた場合は、記事作成を開始する（clone → config → outline → generate）。
 
 ## 作業中プロジェクト
